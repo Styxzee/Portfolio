@@ -1,0 +1,177 @@
+body {
+  font-family: 'Courier New', Courier, monospace ;
+  margin: 0px;
+  padding: 0px;
+  width: 100vw;
+  height: 95vh;
+  overflow: hidden;
+  background-image: url(https://thumbs.gfycat.com/BraveOptimalBaleenwhale-size_restricted.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+nav > ul {
+  margin: 0px;
+  padding: 0px;
+  margin-left: 25%;
+}
+nav li {
+  list-style-type: none;
+}
+
+nav > ul > li {
+  float: left;
+}
+
+.submenu {
+  display: none;
+}
+
+.subsubmenu {
+  display: none;
+}
+nav input[type="checkbox"] {
+  display: none;
+}
+
+.menu-mobile {
+  display: none;
+}
+
+nav {
+  width: 100%;
+  background-color: #202965;
+  }
+nav > ul > li {
+  float: left;
+  position: relative;
+}
+nav > ul::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+nav a {
+  display: inline-block;
+  text-decoration: none;
+}
+nav > ul > li > a {
+  padding: 20px 30px;
+  color: #fff;
+}
+nav li:hover .submenu {
+  display: inline-block;
+  position: absolute;
+  top: 100%;
+  left: 0px;
+  padding: 0px;
+  z-index: 10000;
+}
+.submenu li {
+  border-bottom: 1px solid rgb(0, 0, 0);
+}
+.submenu li a {
+  padding: 15px 30px;
+  font-size: 13px;
+  color: #222538;
+  width: 270px;
+}
+
+
+
+.menu-contact:hover {
+  border-top: 5px solid #bbb;
+  background-color: rgba(5, 167, 78, 0.15);
+}
+.menu-mission:hover {
+  border-top: 5px solid rgb(10, 234, 166);
+  background-color: rgba(45, 222, 9, 0.15);
+}
+.menu-sql:hover {
+  border-top: 5px solid rgb(6, 193, 244);
+  background-color: rgba(6, 192, 244, 0.15);
+}
+.menu-php:hover {
+  border-top: 5px solid #5c18da;
+  background-color: #4a2d80;
+}
+.menu-concept:hover {
+  border-top: 5px solid rgb(21, 176, 151);
+  background-color: rgba(21, 176, 150, 0.15);
+}
+.menu-certifications:hover {
+  border-top: 5px solid rgb(188, 227, 72);
+  background-color: rgba(127, 137, 94, 0.15);
+}
+nav > ul > li:hover a {
+  padding: 15px 30px 20px 30px;
+}
+
+
+.menu-mission .submenu {
+  background-color: rgb(24, 247, 124);
+}
+.menu-sql .submenu {
+  background-color: #06c1f4;
+}
+.menu-concept .submenu {
+  background-color: #15b097;
+}
+.menu-php .submenu {
+  background-color: #854fea;
+}
+.menu-certifications .submenu {
+  background-color: #71af0d;
+}
+
+.submenu li:hover a {
+  color: #eee;
+}
+
+
+
+.menu-sql .submenu li:hover {
+  background-color: #0e82a3;
+}
+.menu-php.submenu li:hover {
+  background-color: #5c18da;
+}
+.menu-concept .submenu li:hover {
+  background-color: #0f8e79;
+}
+.menu-mission .submenu li:hover {
+  background-color: rgb(0, 220, 99);
+}
+
+/* -----------  ----------- */
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(img/bgBody.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+main > div {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  background-color: #222538;
+  opacity: 0.5;
+  width: 50%;
+  height: 40%;
+  border: solid 3px white;
+  border-radius: 999px;
+  z-index: 5;
+}
+main div h1 {
+  margin: 0 auto;
+  z-index: 10;
+  color: purple;
+  opacity: 100;
+  color: #fff;
+}
